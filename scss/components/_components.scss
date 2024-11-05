@@ -1,0 +1,9 @@
+// Top Border
+.top_border {
+    height:13px;
+    width:100%;
+    background-color:$primary_clr;
+    @media (max-width: $break_768 - 1px) {
+        height:12px; 
+    }
+}
